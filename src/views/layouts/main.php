@@ -58,6 +58,7 @@ NavBar::end();
             <?php
             $sidebarItems = ArrayHelper::merge([
                 ['label' => Yii::t('ycm', 'Content'), 'url' => ['model/index']],
+                ['label' => Yii::t('ycm', 'Content'), 'url' => ['model/index']]
             ], $module->sidebarItems);
 
             echo Nav::widget([
